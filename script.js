@@ -11,3 +11,4 @@ function generate() {
   const output = input.toUpperCase();
   resultDiv.innerHTML = output;
 }
+document.getElementById('scanBtn').addEventListener('click', generate);
